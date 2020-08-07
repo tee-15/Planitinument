@@ -272,6 +272,10 @@
         width: 9em;
         display: none;
     }
+    .card__heading {
+        text-align: center;
+        margin-top: 12em;
+    }
    
 }
 
@@ -547,6 +551,10 @@
         justify-content: space-around;
         flex-direction: column;
     }
+    .card__heading {
+        text-align: center;
+        margin-top: 12em;
+    }
     
 
 
@@ -757,6 +765,10 @@
         flex-direction: column;
         width: 39em;
     }
+    .card__heading {
+        text-align: center;
+        margin-top: 12em;
+    }
 }
 /*small phone: from 0 to 480px*/
 @media only screen and (max-width:480px){
@@ -918,6 +930,10 @@
         margin-top: 1em;
         flex-direction: column;
         width: 31em;
+    }
+    .card__heading {
+        text-align: center;
+        margin-top: 12em;
     }
 
 
