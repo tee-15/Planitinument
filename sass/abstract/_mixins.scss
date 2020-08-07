@@ -1,0 +1,11 @@
+@mixin block{
+    display: block;
+}
+@mixin flex ($space) {
+    display: flex;
+    justify-content: space-around;
+    
+}
+@mixin grid {
+    display: grid;
+}

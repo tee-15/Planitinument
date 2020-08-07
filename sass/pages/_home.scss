@@ -1,0 +1,107 @@
+.home {
+  background-color: $limited-color;
+  height: 60em;
+  &_head {
+    @include flex(space-around);
+    padding-top: 14em;
+  }
+  &-image {
+    width: 45rem;
+  }
+  &-text {
+    text-align: center;
+    font-weight: 100;
+    color: $background-color;
+    font-size: 2rem;
+    font-family: $myFont;
+    margin-bottom: 1em;
+  }
+  &-message {
+    font-size: 55px;
+    font-family: $myFont;
+    margin-bottom: 1em;
+  }
+  &_message {
+    font-size: 25px;
+    font-family: $myFont;
+  }
+  &_btn {
+    margin-top: 4em;
+  }
+  &-box {
+    text-align: center;
+    margin-top: 2em;
+  }
+  &__flex-box {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 2em;
+    grid-row-gap: 77px;
+    grid-column-gap: 33px;
+    -moz-column-gap: 40px;
+    column-gap: 160px;
+    @include grid;
+    grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+    grid-auto-rows: 26px;
+    margin-top: 7em;
+  }
+  &-flex {
+    box-shadow: 0 2px 5px 0 $background-color, 0 2px 1px 0 $stackColor;
+    background-color: $favorite-color;
+    width: 133%;
+    height: 20em;
+    grid-row-end: span 4;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2em;
+  }
+  &_flex-head{
+     font-family: $myFont;
+     
+  }
+  &_flex-text{
+      font-family: $myFont;
+      font-size: 20px;
+  }
+  &--read {
+    font-size: 35px;
+    font-family: $myFont;
+    color: $stackColor;
+  }
+  &--messages {
+    font-size: 60px;
+    font-family: $fontStack;
+    font-weight: bold;
+  }
+  &_flex-btn{
+      text-align: center;
+  }
+  &__form--box{
+    @include flex (space-around);
+    margin-top: 10em;
+    
+  }
+  &__form-text{
+     margin-top: 7em;
+  }
+  &__contact{
+    color: $stackColor;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: $fontStack;
+    margin-bottom: 1em;
+    text-align: start;
+  }
+  &__contact-message{
+    font-size: 65px;
+    text-align: start;
+    color: $primary-color;
+    font-family: $fontStack;
+  }
+}
+.icon {
+  font-size: 3em;
+  color: $stackColor;
+  cursor: pointer;
+}
+

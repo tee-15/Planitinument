@@ -1,0 +1,40 @@
+.header{
+    animation: shake 5s;
+    @include flex(space-around);
+    position: relative;
+    z-index: 1;
+    top: 2em;
+    &__list {
+        @include flex(space-around);
+     
+    }
+    &__link {
+     margin: 1em;
+     color: $primary-color;
+     font-family: $fontStack;
+     font-size: 20px;
+     font-weight: lighter;
+    }
+    &-logo{
+        width: 15em;
+    }
+    &__icon {
+        color: $stackColor;
+        font-size: 30px;
+        cursor: pointer;
+        float: right;
+        margin-top: 0px;
+        display: none;
+    }
+    &__left{
+     display: none;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}

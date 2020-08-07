@@ -1,0 +1,324 @@
+@keyframes shake {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moving {
+  from {
+    background-color: rgba(255, 255, 255, 0.8); }
+  to {
+    background-color: #55c57a; } }
+
+.btn--active {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 50px;
+  font-size: 18px;
+  border: 1px solid #177AE6;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 2px 0 #177AE6, 0 2px 10px 0 #105AA8;
+  color: #177AE6;
+  font-family: Ubuntu;
+  font-weight: bold; }
+
+.btn--action {
+  padding-left: 1.9em;
+  padding-right: 1.9em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 50px;
+  font-size: 18px;
+  border: 1px solid #177AE6;
+  background-color: #105AA8;
+  box-shadow: 0 2px 2px 0 #177AE6, 0 2px 10px 0 #105AA8;
+  color: #FFFFFF;
+  font-family: Ubuntu;
+  font-weight: bold;
+  margin-top: 1em; }
+
+.btn--action:hover {
+  background-color: #FFFFFF;
+  color: #177AE6; }
+
+.btn--text {
+  text-align: center; }
+
+.card {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 0 2em;
+  grid-row-gap: 370px;
+  grid-column-gap: 33px;
+  -moz-column-gap: 40px;
+  column-gap: 22px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+  grid-auto-rows: 92px;
+  margin-top: 7em; }
+  .card__heading {
+    text-align: center;
+    margin-top: 5em; }
+  .card__images {
+    margin-bottom: 0.7em; }
+  .card__name {
+    font-size: 25px;
+    font-family: Ubuntu;
+    color: #00001C;
+    font-weight: 100; }
+  .card__text {
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: #00001C;
+    font-weight: 100; }
+  .card__team {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Ubuntu;
+    color: #00001C;
+    margin-bottom: 1em; }
+  .card__messages {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Ubuntu;
+    color: #00001C; }
+
+a {
+  text-decoration: none;
+  color: #00001C; }
+
+footer {
+  margin-top: 23em; }
+
+.form input[type=text], .form select, .form textarea {
+  width: 30rem;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  display: block;
+  color: #177AE6;
+  font-family: Ubuntu;
+  font-size: 15px;
+  position: relative;
+  animation: shake 5s; }
+
+.form input[type=text]:hover {
+  border: 1px solid #177AE6;
+  border-radius: 25px; }
+
+.form input[type=text]:required {
+  border-radius: 25px; }
+
+.form label {
+  color: #177AE6;
+  font-size: 25px;
+  font-family: Ubuntu; }
+
+.form_send {
+  text-decoration: underline;
+  font-size: 1.7rem;
+  color: #177AE6;
+  margin-left: 1.5em;
+  margin-top: -1.5em;
+  font-family: Ubuntu; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00001C;
+  color: #FFFFFF;
+  padding-top: 4em;
+  margin-top: 1em; }
+  .footer__list {
+    display: flex;
+    justify-content: space-around; }
+  .footer__test {
+    margin: 3em;
+    line-height: 3em;
+    font-family: Ubuntu;
+    font-size: 20px; }
+  .footer__tet {
+    font-size: 23px;
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  .footer__images {
+    width: 18em; }
+  .footer__image {
+    width: 9em; }
+
+.header {
+  animation: shake 5s;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+  top: 2em; }
+  .header__list {
+    display: flex;
+    justify-content: space-around; }
+  .header__link {
+    margin: 1em;
+    color: #00001C;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: lighter; }
+  .header-logo {
+    width: 15em; }
+  .header__icon {
+    color: #177AE6;
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    margin-top: 0px;
+    display: none; }
+  .header__left {
+    display: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  overflow-x: hidden; }
+
+.home {
+  background-color: #E6F8FF;
+  height: 60em; }
+  .home_head {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 14em; }
+  .home-image {
+    width: 45rem; }
+  .home-text {
+    text-align: center;
+    font-weight: 100;
+    color: #105AA8;
+    font-size: 2rem;
+    font-family: Ubuntu;
+    margin-bottom: 1em; }
+  .home-message {
+    font-size: 55px;
+    font-family: Ubuntu;
+    margin-bottom: 1em; }
+  .home_message {
+    font-size: 25px;
+    font-family: Ubuntu; }
+  .home_btn {
+    margin-top: 4em; }
+  .home-box {
+    text-align: center;
+    margin-top: 2em; }
+  .home__flex-box {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 2em;
+    grid-row-gap: 77px;
+    grid-column-gap: 33px;
+    -moz-column-gap: 40px;
+    column-gap: 160px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+    grid-auto-rows: 26px;
+    margin-top: 7em; }
+  .home-flex {
+    box-shadow: 0 2px 5px 0 #105AA8, 0 2px 1px 0 #177AE6;
+    background-color: #FFFFFF;
+    width: 133%;
+    height: 20em;
+    grid-row-end: span 4;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2em; }
+  .home_flex-head {
+    font-family: Ubuntu; }
+  .home_flex-text {
+    font-family: Ubuntu;
+    font-size: 20px; }
+  .home--read {
+    font-size: 35px;
+    font-family: Ubuntu;
+    color: #177AE6; }
+  .home--messages {
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: bold; }
+  .home_flex-btn {
+    text-align: center; }
+  .home__form--box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10em; }
+  .home__form-text {
+    margin-top: 7em; }
+  .home__contact {
+    color: #177AE6;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Montserrat;
+    margin-bottom: 1em;
+    text-align: start; }
+  .home__contact-message {
+    font-size: 65px;
+    text-align: start;
+    color: #00001C;
+    font-family: Montserrat; }
+
+.icon {
+  font-size: 3em;
+  color: #177AE6;
+  cursor: pointer; }
+
+.about {
+  margin-top: 10em;
+  display: flex;
+  justify-content: space-around; }
+  .about__head {
+    margin-top: 4em;
+    margin-left: 4em; }
+  .about-text {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Ubuntu;
+    margin-bottom: 1em; }
+  .about-image {
+    width: 45rem; }
+  .about__message {
+    font-size: 25px;
+    color: #404040;
+    font-weight: 300;
+    font-family: Montserrat;
+    opacity: 1;
+    line-height: 1em; }
+  .about__btn {
+    margin-top: 3em; }
+  .about_line {
+    border-bottom: 15px solid #32C6FA; }

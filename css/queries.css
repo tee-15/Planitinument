@@ -1,0 +1,924 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .header__icon {
+        cursor: pointer;
+        margin-top: 16px;
+        display: block;
+        width: 2em;
+    }
+    .menu {
+        width: 3em;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-in;
+    }
+    .header-left {
+        position: fixed;
+        height: 20%;
+        width: 20%;
+        background-color: white;
+        display: block;
+    }
+    img.close {
+        width: 2em;
+        margin-top: 0em;
+    }
+    .header__list {
+        flex-direction: column;
+        margin-top: 4em;
+        position: fixed;
+        width: 103%;
+        height: 16em;
+        background: white;
+        color: hsl(228, 39%, 23%);
+        display: none;
+        text-align: center;
+        transition: all.5s;
+        line-height: 1.5em;
+        font-size: 3.5em;
+    }
+    .header-logo {
+        width: 19em;
+    }
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text {
+        font-size: 101px;
+        text-align: center;
+    }
+    .about__message {
+        font-size: 41px;
+        color: #404040;
+        font-weight: 300;
+        font-family: Montserrat;
+        opacity: 1;
+        line-height: 1em;
+        text-align: center;
+    }
+    .about__head {
+        margin-top: 4em;
+    }
+    .btn--action {
+        font-size: 44px;
+        border-radius: 74px;
+    }
+    .about-image {
+        width: 49rem;
+    }
+    .home_head {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .home-text {
+        text-align: justify;
+        font-size: 4rem;
+        margin-left: 1.7em;
+    }
+    .home-message {
+        margin-left: 109px;
+        font-size: 88px;
+        font-family: Ubuntu;
+        margin-bottom: 1em;
+        text-align: initial;
+    }
+    .home {
+        background-color: #E6F8FF;
+        width: 70rem;
+        height: 149em;
+    }
+    .home_message {
+        font-size: 35px;
+        line-height: 1em;
+    }
+    .btn--active {
+        border-radius: 73px;
+        font-size: 30px;
+    }
+    .btn--action {
+        font-size: 30px;
+        border-radius: 74px;
+    }
+    .home-image {
+        width: 53rem;
+    }
+    .home_btn {
+        margin-top: 4em;
+        margin-bottom: 2em;
+    }
+    .home__flex-box {
+        max-width: 1200px;
+        margin: 13em;
+        padding: 0 2em;
+        grid-row-gap: 81px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 406px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 25px;
+        margin-top: 7em;
+    }
+    .home-flex {
+        box-shadow: 0 4px 8px 0 #177AE6, 0 6px 20px 0 #105AA8;
+        width: 120%;
+        height: 23em;
+        grid-row-end: span 4;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 1em;
+    }
+    
+    h1.home_flex-head {
+        font-size: 3em;
+    }
+    p.home_flex-text {
+        font-size: 31px;
+    }
+    .home--messages {
+        font-size: 75px;
+        font-family: Montserrat;
+        font-weight: bold;
+        /* margin-left: 1em; */
+    }
+    .home--read {
+        font-size: 54px;
+        font-family: Ubuntu;
+        color: #177AE6;
+        margin-left: 1em;
+    }
+    .home_flex-btn {
+        text-align: center;
+        margin-left: 4em;
+    }
+    .home__form--box {
+       
+        flex-direction: column;
+        margin-left: 5em;
+    }
+    .form label {
+      
+        font-size: 27px;
+       
+    }
+    .home__form-text {
+      
+        margin-bottom: 6em;
+    }
+    .home__contact {
+        
+        text-align: center;
+    }
+    .home__contact-message {
+      
+        text-align: center;
+      
+    }
+    form {
+        margin-left: 13em;
+    }
+    .form select, .form textarea {
+        font-size: 25px;
+    }
+    .form_send {
+       
+        font-size: 33px;
+       
+      
+    }
+    .form input[type=text], .form select, .form textarea {
+        width: 26rem;
+        padding: 12px;
+        border-radius: 4px;
+        border: none;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: block;
+        color: #177AE6;
+        font-family: Ubuntu;
+        font-size: 15px;
+        position: relative;
+        animation: shake 5s;
+    }
+    .card {
+        max-width: 1200px;
+        margin: 4em 13em;
+        padding: 0 2em;
+        grid-row-gap: 370px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 399px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 368px;
+        margin-top: 7em;
+    }
+    .card__name {
+        font-size: 21px;
+        font-family: Ubuntu;
+        color: #00001C;
+        font-weight: 100;
+        text-align: center;
+    }
+    .card__text {
+        font-size: 12px;
+        font-family: Ubuntu;
+        color: #00001C;
+        font-weight: 100;
+        text-align: center;
+    }
+    .card__images {
+        margin-bottom: 0.7em;
+        width: 10em;
+    }
+    .face {
+        margin: -29px;
+        margin-left: 2em;
+    }
+    .card__messages {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: Ubuntu;
+        color: #00001C;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: #00001C;
+        color: #FFFFFF;
+        padding-top: 4em;
+        margin-top: 1em;
+        flex-direction: column;
+        width: 71em;
+    }
+    .footer__list {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__message {
+        text-align: center;
+        font-size: 30px;
+    }
+    .footer__test {
+        margin: 3em;
+        line-height: 3em;
+        font-family: Ubuntu;
+        font-size: 25px;
+    }
+    .footer__image {
+        width: 9em;
+        display: none;
+    }
+   
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    
+    .header__icon {
+        cursor: pointer;
+        margin-top: 16px;
+        display: block;
+        width: 2em;
+    }
+    .menu {
+        width: 2em;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-in;
+    }
+    .header-left {
+        position: fixed;
+        height: 20%;
+        width: 20%;
+        background-color: white;
+        display: block;
+    }
+    img.close {
+        width: 2em;
+        margin-top: 0em;
+    }
+    .header__list {
+        flex-direction: column;
+        margin-top: 4em;
+        position: fixed;
+        width: 103%;
+        height: 16em;
+        background: white;
+        color: #00001C;
+        display: none;
+        text-align: center;
+        transition: all.5s;
+        line-height: 1.5em;
+        font-size: 3.5em;
+    }
+    .header-logo {
+        width: 19em;
+    }
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text {
+        font-size: 55px;
+        text-align: center;
+    }
+    .about__message {
+        font-size: 39px;
+        color: #404040;
+        font-weight: 300;
+        font-family: Montserrat;
+        opacity: 1;
+        line-height: 1em;
+        text-align: center;
+    }
+    .about__head {
+        margin-top: 4em;
+    }
+    .btn--action {
+        font-size: 44px;
+        border-radius: 74px;
+    }
+    .about-image {
+        width: 48rem;
+    }
+    .home_head {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .home-text {
+        text-align: justify;
+        font-size: 41px;
+        margin-left: 3em;
+    }
+    .home-message {
+        margin-left: 108px;
+        font-size: 79px;
+        font-family: Ubuntu;
+        margin-bottom: 1em;
+        text-align: initial;
+    }
+    .home {
+        background-color: #E6F8FF;
+        width: 61rem;
+        height: 97em;
+    }
+    .home_message {
+        /* margin-left: -8em; */
+        font-size: 30px;
+        line-height: 2em;
+    }
+    .btn--active {
+        border-radius: 73px;
+        font-size: 21px;
+    }
+    .btn--action {
+        font-size: 20px;
+        border-radius: 74px;
+    }
+    .home-image {
+        /* margin-left: -8em; */
+        width: 49rem;
+    }
+    .home_btn {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        margin-left: -6em;
+    }
+    .home__flex-box {
+        max-width: 1200px;
+        margin: 4em 10em;
+        padding: 0 2em;
+        grid-row-gap: 81px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 406px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 25px;
+        margin-top: 7em;
+    }
+    .home-flex {
+        box-shadow: 0 4px 8px 0 #177AE6, 0 6px 20px 0 #105AA8;
+        background-color: #FFFFFF;
+        width: 106%;
+        height: 24em;
+        grid-row-end: span 4;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 1em;
+    }
+    h1.home_flex-head {
+        font-size: 3em;
+    }
+    p.home_flex-text {
+        font-size: 27px;
+    }
+    .home-message {
+        margin-left: 108px;
+        font-size: 67px;
+        font-family: Ubuntu;
+        margin-bottom: 1em;
+        text-align: initial;
+    }
+    .home--messages {
+        font-size: 75px;
+        font-family: Montserrat;
+        font-weight: bold;
+        /* margin-left: 1em; */
+    }
+    .home--read {
+        font-size: 54px;
+        font-family: Ubuntu;
+        color: #177AE6;
+        margin-left: 1em;
+    }
+    .home_flex-btn {
+        text-align: center;
+        margin-left: 4em;
+    }
+    .home__form--box {
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    
+    .form label {
+        font-size: 27px;
+    }
+    .home__form-text {
+      
+        margin-bottom: 6em;
+    }
+    .home__contact {
+        
+        text-align: center;
+    }
+    .home__contact-message {
+      
+        text-align: center;
+      
+    }
+    form {
+        margin-left: 8em;
+    }
+    .form select, .form textarea {
+        font-size: 20px;
+    }
+    .form_send {
+       
+        font-size: 25px;
+       
+      
+    }
+    .form input[type=text], .form select, .form textarea {
+        width: 26rem;
+        padding: 12px;
+        border-radius: 4px;
+        border: none;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: block;
+        color: #177AE6;
+        font-family: Ubuntu;
+        font-size: 15px;
+        position: relative;
+        animation: shake 5s;
+    }
+    .card {
+        max-width: 1200px;
+        margin: 4em 13em;
+        padding: 0 2em;
+        grid-row-gap: 370px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 399px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 368px;
+        margin-top: 7em;
+    }
+    .card__name {
+        font-size: 19px;
+        font-family: Ubuntu;
+        color: #00001C;
+        font-weight: 100;
+        text-align: center;
+    }
+    .card__text {
+        font-size: 9px;
+        font-family: Ubuntu;
+        color: #00001C;
+        font-weight: 100;
+        text-align: center;
+    }
+    .card__images {
+        margin-bottom: 0.7em;
+        width: 10em;
+    }
+    .face {
+        margin: -78px;
+        margin-left: 2em;
+    }
+    .card__messages {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: Ubuntu;
+        color: #00001C;
+    }
+    .card__face {
+        margin-left: 50px;
+        margin-top: -1em;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: #00001C;
+        color: #FFFFFF;
+        padding-top: 4em;
+        margin-top: 1em;
+        flex-direction: column;
+        width: 64em;
+    }
+    .footer__list {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+
+
+}
+
+/*small phone to small tablets: from 481px to 768px*/
+@media only screen and (max-width:768px){
+    .about__head {
+        margin-top: 4em;
+        margin-left: 0em;
+    }
+    .about-text {
+        font-size: 47px;
+        text-align: center;
+    }
+    .about__message {
+        font-size: 19px;
+        color: #404040;
+        font-weight: 300;
+        font-family: Montserrat;
+        opacity: 1;
+        line-height: 1em;
+        text-align: center;
+    }
+    .btn--action {
+        font-size: 19px;
+        border-radius: 36px;
+    }
+    .about-image {
+        width: 25rem;
+    }
+    .home {
+        background-color: #E6F8FF;
+        width: 725px;
+        height: 84em;
+    }
+    .home-message {
+        margin-left: 3px;
+        font-size: 46px;
+        font-family: Ubuntu;
+        margin-bottom: 1em;
+        text-align: initial;
+    }
+    .home_message {
+        font-size: 16px;
+        line-height: 1em;
+        margin-left: -15em;
+    }
+    .btn--active {
+        border-radius: 73px;
+        font-size: 14px;
+        margin-left: -6em;
+    }
+    .menu {
+        width: 1em;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-in;
+    }
+    .header__icon {
+        cursor: pointer;
+        margin-top: 30px;
+        display: block;
+        width: 2em;
+    }
+   
+    .header__icon {
+        cursor: pointer;
+        margin-top: 16px;
+        display: block;
+        width: 2em;
+    }
+    .home-text {
+        text-align: justify;
+        font-size: 3rem;
+        margin-left: 93px;
+    }
+    .home-image {
+        width: 35rem;
+        margin-right: 12em;
+    }
+    .home--read {
+        font-size: 30px;
+        font-family: Ubuntu;
+        color: #177AE6;
+        margin-left: 0em;
+    }
+    .home--messages {
+        font-size: 25px;
+        font-family: Montserrat;
+        font-weight: bold;
+        margin-left: 0em;
+    }
+    h1.home_flex-head {
+        font-size: 2em;
+    }
+    .home__flex-box {
+        max-width: 1200px;
+        margin: 4em 4em;
+        padding: 0 2em;
+        grid-row-gap: 81px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 406px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 25px;
+        margin-top: 7em;
+    }
+    p.home_flex-text {
+        font-size: 16px;
+    }
+    .home-flex {
+        box-shadow: 0 4px 8px 0 #177AE6, 0 6px 20px 0 #105AA8;
+        background-color: #FFFFFF;
+        width: 18em;
+        height: 17em;
+        grid-row-end: span 4;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 1em;
+        margin-left: 0em;
+    }
+    .home__form--box {
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    form {
+        margin-left: 1em;
+    }
+    .home__contact-message {
+        font-size: 25px;
+        text-align: center;
+        color: #00001C;
+        font-family: Montserrat;
+    }
+    .form label {
+        font-size: 20px;
+    }
+    .form_send {
+        font-size: 20px;
+    }
+    .icon {
+        font-size: 2em;
+        color: #177AE6;
+        cursor: pointer;
+    }
+    .form input[type=text], .form select, .form textarea {
+        width: 17rem;
+        padding: 12px;
+        border-radius: 4px;
+        border: none;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: block;
+        color: #177AE6;
+        font-family: Ubuntu;
+        font-size: 15px;
+    }
+    .home__contact {
+        color: #177AE6;
+        font-size: 29px;
+        font-weight: 100;
+        font-family: Montserrat;
+        margin-bottom: 1em;
+        text-align: start;
+    }
+    .btn--action {
+        font-size: 13px;
+        border-radius: 36px;
+    }
+    .card {
+        max-width: 1200px;
+        margin: 2em 2em;
+        grid-row-gap: 370px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 399px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 358px;
+        margin-top: 7em;
+    }
+    .card__images {
+        margin-bottom: 0.7em;
+        width: 7em;
+    }
+    .home_btn {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        margin-left: -10em;
+    }
+    .card__face {
+        margin-left: -21px;
+        margin-top: -2em;
+    }
+    .face {
+        margin: -94px;
+        margin-left: 2em;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: #00001C;
+        color: #FFFFFF;
+        padding-top: 4em;
+        margin-top: 1em;
+        flex-direction: column;
+        width: 39em;
+    }
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    .home {
+        background-color: #E6F8FF;
+        width: 19.2em;
+        height: 63em;
+    }
+    .about-image {
+        width: 15rem;
+    }
+    img.close {
+        width: 1em;
+        margin-top: 13px;
+    }
+    .header__list {
+        flex-direction: column;
+        margin-top: 4em;
+        position: fixed;
+        width: 7em;
+        height: 16em;
+        background: white;
+        color: #00001C;
+        display: none;
+        text-align: center;
+        transition: all.5s;
+        line-height: 1.5em;
+        font-size: 3.5em;
+    }
+    .form input[type=text], .form select, .form textarea {
+        width: 15rem;
+        padding: 12px;
+        border-radius: 4px;
+        border: none;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: block;
+        color: #177AE6;
+        font-family: Ubuntu;
+        font-size: 15px;
+        position: relative;
+        animation: shake 5s;
+    }
+    .home-flex {
+        box-shadow: 0 4px 8px 0 #177AE6, 0 6px 20px 0 #105AA8;
+        background-color: #FFFFFF;
+        width: 17em;
+        height: 19em;
+        grid-row-end: span 4;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 1em;
+        margin-left: -2em;
+    }
+    .header-logo {
+        width: 11em;
+    }
+    .header__icon {
+        cursor: pointer;
+        margin-top: 0px;
+        display: block;
+        width: 1em;
+    }
+    .home-text {
+        text-align: justify;
+        font-size: 2rem;
+        margin-left: 3px;
+    }
+    .home-message {
+        margin-left: 5px;
+        font-size: 29px;
+        font-family: Ubuntu;
+        margin-bottom: 1em;
+        text-align: initial;
+    }
+    .home_message {
+        font-size: 11px;
+        line-height: 2em;
+        margin-left: -3em;
+        white-space: pre;
+    }
+    .home_btn {
+        margin-top: 4em;
+        margin-bottom: 2em;
+        margin-left: 4em;
+    }
+    .btn--action {
+        border-radius: 73px;
+        font-size: 10px;
+        
+    }
+    .btn--active {
+        border-radius: 73px;
+        font-size: 10px;
+        margin-left: -8em;
+    }
+    .home__contact-message {
+        font-size: 25px;
+        text-align: center;
+        color: #00001C;
+        font-family: Montserrat;
+    }
+    .home__contact {
+        color: #177AE6;
+        font-size: 29px;
+        font-weight: 100;
+        font-family: Montserrat;
+        margin-bottom: 1em;
+        text-align: start;
+    }
+    .home-image {
+        width: 20rem;
+        margin-left: 0em;
+    }
+    .home__flex-box {
+        max-width: 1200px;
+        margin: 1em;
+        padding: 0 2em;
+        grid-row-gap: 81px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 406px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 25px;
+        margin-top: 7em;
+    }
+    .card {
+        max-width: 1200px;
+        margin: 2em 4em;
+        grid-row-gap: 370px;
+        grid-column-gap: 33px;
+        -moz-column-gap: 40px;
+        column-gap: 399px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(267px, 1fr));
+        grid-auto-rows: 358px;
+        margin-top: 7em;
+    }
+    .card__images {
+        margin-bottom: 0.7em;
+        width: 7em;
+    }
+    .card__face {
+        margin-left: 9px;
+        margin-top: -1em;
+    }
+    .face {
+        margin: -94px;
+        margin-left: 2em;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: #00001C;
+        color: #FFFFFF;
+        padding-top: 4em;
+        margin-top: 1em;
+        flex-direction: column;
+        width: 31em;
+    }
+
+
+}

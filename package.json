@@ -1,0 +1,14 @@
+{
+  "name": "plantinumnets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comit-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Platinum Networks Engineering Team",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

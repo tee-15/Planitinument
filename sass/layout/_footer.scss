@@ -1,0 +1,27 @@
+.footer{
+    @include flex (space-around);
+    background-color: $primary-color;
+    color: $favorite-color;
+    padding-top: 4em;
+    margin-top: 1em;
+    &__list{
+        @include flex (space-around)
+    }
+    &__test{
+        margin: 3em;
+        line-height: 3em;
+        font-family: $myFont;
+        font-size: 20px;
+    }
+    &__tet{
+        font-size: 23px;
+       margin-top: 1em;
+       margin-bottom: 1em;
+    }
+    &__images {
+        width: 18em;
+    }
+    &__image {
+        width: 9em;
+    }
+}
